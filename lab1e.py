@@ -15,6 +15,7 @@
 # Print the product of `quantity` and `stock` with 4 spaces before the answer using the module % formatting.
 # Then print the product of `quantity` and `stock` with 7 spaces before the answer and make sure the answer only goes to hundreadths (-.--) using the module % formatting.
 quantity=4.5
-stock=10.33333333
+stock=12.257324213
 product=quantity*stock
 print("The product of quantity and stock is : %4.0f" %product)
+print("The product of quantity and stock is : %7.2f" %product)
